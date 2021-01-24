@@ -65,7 +65,7 @@ public class ProcessCall extends BroadcastReceiver {
     public void sendingMessage(String value){
 
         /*sqs.setRegion(Region.getRegion("ap-south-1"));
-        SendMessageRequest req = new SendMessageRequest("https://sqs.ap-south-1.amazonaws.com/780075415211/GolangQ",value);
+        SendMessageRequest req = new SendMessageRequest("url",value);
         sqs.sendMessageAsync(req, new AsyncHandler<SendMessageRequest, SendMessageResult>() {
             @Override
             public void onError(Exception exception) {
